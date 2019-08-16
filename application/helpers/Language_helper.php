@@ -28,10 +28,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	* @license		http://opensource.org/licenses/MIT	MIT License
 	* @link		https://pinoywap.org/repository/BabaeronFramework
 	* 
-	* Used for: MinSU Enrollment System
-	* Babaeron Framework
-	* Developer: MinSU Dev Team
-	* July 01, 2019
 ****/
 
 function language_url($url) {

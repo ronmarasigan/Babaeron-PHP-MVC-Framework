@@ -19,10 +19,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	* @license		https://www.gnu.org/licenses	GNU General Public License V3.0
 	* @link		https://github.com/BABAERON/Babaeron-PHP-MVC-Framework
 	* 
-	* Used for: MinSU Enrollment System
-	* Babaeron Framework
-	* Developer: MinSU Dev Team
-	* July 01, 2019
 ****/
 
 class Main extends Controller {

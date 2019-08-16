@@ -18,6 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	* @copyright	Copyright (c) 2018, BABAERON - a basic PHP Framework
 	* @license		https://www.gnu.org/licenses	GNU General Public License V3.0
 	* @link		https://github.com/BABAERON/Babaeron-PHP-MVC-Framework
+	*
 ****/
 
 function autoload () {

@@ -19,10 +19,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	* @license		https://www.gnu.org/licenses	GNU General Public License V3.0
 	* @link		https://github.com/BABAERON/Babaeron-PHP-MVC-Framework
 	* 
-	* Used for: MinSU Enrollment System
-	* Babaeron Framework
-	* Developer: MinSU Dev Team
-	* July 01, 2019
 ****/
 
 class Security_plugin {
@@ -31,6 +27,7 @@ class Security_plugin {
 	//We will use HTMLPurifier if needed
 	function SanitizeString($string)
 	{
+		//replace this with anti XSS method if you will allow end-user to insert html elements and attributes
 		return htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
 	}
 	
@@ -38,6 +35,7 @@ class Security_plugin {
 	//We can simply remove unnecessary strings here
 	function cleanInput($string, $type=null)
 	{
+		//put here you cleaning method
 		$string = trim($string);
 		return $string;
 	}
