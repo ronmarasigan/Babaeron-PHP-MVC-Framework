@@ -40,7 +40,7 @@ ini_set('memory_limit', '512M');
 date_default_timezone_set('Asia/Manila');
 
 /***** Base URL including trailing slash (e.g. http://localhost/) *****/
-$config['base_url'] = 'http://minsu.edu.ph/';
+$config['base_url'] = '';
 
 /***** Default controller to load *****/
 $config['default_controller'] = 'Main';
