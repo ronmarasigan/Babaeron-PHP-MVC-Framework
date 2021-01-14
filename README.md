@@ -1,4 +1,8 @@
-### Babaeron-PHP-MVC-Framework
+### Lavalust Framework
+Check the repository here
+[LavaLust Framework](https://github.com/ronmarasigan/LavaLust)
+
+# Babaeron-PHP-MVC-Framework is now LavaLust Framework
 BABAERON - a basic PHP MVC Framework that was designed for PHP newbie who wants to learn and use MVC framework easily. This also comes with built-in helpers and security plugins for your needs.
 
 So if you want start learning start it from here. :)
